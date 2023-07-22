@@ -1,0 +1,118 @@
+.tableList {
+  width: 90%;
+  border-collapse : collapse;
+  font-family : Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{text-align: center;}
+.tableList th ,td {
+  border : 1px solid #ddd;
+  padding : 8px;
+  text-align : center;
+}
+.tableList th {
+ background-color: #04AA6D;
+ color : white;
+ padding-top: 12px;
+ }
+ .tableList tr:nth-child(odd) {
+  background-color: #f2f2f2;
+ }
+ .tableList tr:nth-child(even) {
+  background-color: white;
+ }
+ .tableList tr:hover {
+  background-color : #DDD;
+  }
+body {
+  background: #efefef;
+}
+#formId {
+  border-radius : 10px;
+  position : relative;
+  background : #FFFFFF;
+  max-width : 350px;
+  margin : auto;
+  padding : 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#formId input[type=text] {
+ outline : 0;
+ background : #f2f2f2;
+ padding : 12px;
+ width: 100%;
+ box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+ border: 0;
+ font-size: 15px;
+ border-radius: 5px;
+}
+#formId input[type=radio] {
+margin: 0 10px 10px;
+}
+#formId button {
+ text-transform : uppercase;
+ font-size: 13px;
+ background: #4CAF50;
+ border: 0;
+ color : white;
+ cursor: pointer;
+ width: 100%;
+ padding: 14px;
+ border-radius : 10px;
+}
+#formId button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+#formId:hover, .tableList tr td:hover, #formId input:hover {
+ box-shadow: 0 8px 18px 0 rgba(0,0,0,0.4);
+}
+.tableList:hover {
+box-shadow: 0 8px 18px 0 rgba(0,0,0,0.6);
+}
+.tableList span{
+border : 0;
+cursor: pointer;
+}
+i:hover{
+color:red;}
+
+.popupButton {
+ text-transform : uppercase;
+ font-size: 13px;
+ background: blue;
+ border: 0;
+ color : white;
+ cursor: pointer;
+ padding: 14px;
+ border-radius : 10px;
+}
+.loading {
+    margin-left: 50%;
+    z-index: 3;
+  }
+.close{
+border-radius:5px;
+border:0;
+margin-left:97%;
+margin-top:-30px;
+position: sticky;
+}
+
+#nameErr, #ageErr, #genderErr{
+color : red;
+}
+
+
+/*.header,.footer {
+
+width: 100%;
+text-align: center;
+height: 100px;
+background:#F4F6F7;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}*/
