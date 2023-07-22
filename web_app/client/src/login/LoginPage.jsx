@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import {observer} from "mobx-react";
-import './UserLogin.css';
+import '../UserLogin.css';
 
 class LoginPage extends React.Component{
     constructor(props) {

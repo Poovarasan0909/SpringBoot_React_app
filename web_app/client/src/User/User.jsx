@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
-import LoginPage from './LoginPage';
+import LoginPage from '../login/LoginPage';
 import {observer} from "mobx-react";
 import  Modal  from 'react-modal';
-import LoginPageStore from "./LoginPageStore";
+import LoginPageStore from "../login/LoginPageStore";
 import UserDataTable from "./UserDataTable";
 import { Audio,Oval } from 'react-loader-spinner';
 import userFunctions from './userFunctions';
-import './user.css';
+import '../user.css';
 import {decorate, observable, action} from "mobx"
 
 
